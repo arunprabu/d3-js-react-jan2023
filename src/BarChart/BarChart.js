@@ -53,9 +53,10 @@ const BarChart = () => {
        .domain([60, 65, 70, 75, 100])
        .range(["lightgreen", "green", "blue", "pink", "red"])
        .clamp(true);
+       
     drawChart();
   };
-  
+
   const drawChart = () => {
     let extractDataAsList = [];
     playerStats.map((item) => {
